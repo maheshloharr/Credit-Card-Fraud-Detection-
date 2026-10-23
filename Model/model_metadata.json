@@ -1,0 +1,12 @@
+{
+  "project": "Credit Card Fraud Detection - Supervised Learning",
+  "sample_size": 50000,
+  "fraud_count_in_sample": 86,
+  "best_model": "XGBoost Tuned",
+  "best_pr_auc": 0.913266,
+  "f1_optimal_threshold": 0.3930294216,
+  "recall_90_threshold": 0.0148130637,
+  "business_best_threshold": 0.2,
+  "business_best_net_benefit_inr": 64950,
+  "notes": "Test set was kept untouched by resampling. Amount_log and Hour were scaled; PCA V-features were not scaled."
+}
